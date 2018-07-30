@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>GetFeedback | Front-End Exercise</title>
+
+  <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <header class="header">
+    <figure class="logo">
+      <img src="images/gf-logo.png" alt="GetFeedback">
+    </figure>
+    <div class="header-text">
+      <h1 class="title">#this-vs-that</h1>
+      <p class="title-text">Getfeedback eats</p>
+    </div>
+    <div class="video-bg">
+      <iframe class="vimeo-video" src="https://player.vimeo.com/video/63729905?autoplay=1&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="inner">
+      <div class="section section__instagram">
+        <header class="section__header">
+          <h2>Sometimes we work. Always we eat.</h2>
+          <p>What shall we feast on this week? Inspiration from the
+            <a href="https://www.instagram.com/analogmemory/" target="_blank">@analogmemory</a> Instagram:
+          </p>
+        </header>
+        <div class="instagram__feed">
+          <span class="loader"></span>
+        </div>
+      </div>
+
+      <div class="section section__winners">
+        <header class="section__header">
+          <h2>And the winner is…</h2>
+        </header>
+        <div class="tabs">
+          <div class="tabs__nav">
+            <a class="tabs__navitem tabs__navitem-active" data-tab="round1">Round 1</a>
+            <a class="tabs__navitem" data-tab="round2">Round 2</a>
+            <a class="tabs__navitem" data-tab="round3">Round 3</a>
+          </div>
+          <div class="tabs__content" data-tab-content="round1">
+            <figure class="medal">
+              <img src="images/slice-winner.png" alt="">
+            </figure>
+            <div class="copy">
+              <p class="category">Pepperoni Pizza</p>
+              <h2 class="competitors">Jersey
+                <span>vs</span> Slice House</h2>
+            </div>
+          </div>
+          <div class="tabs__content" data-tab-content="round2">
+            <figure class="medal">
+              <img src="images/jersey-winner.png" alt="">
+            </figure>
+            <div class="copy">
+              <p class="category">Meatball Subs</p>
+              <h2 class="competitors">Jersey
+                <span>vs</span> Merrigan</h2>
+            </div>
+          </div>
+          <div class="tabs__content" data-tab-content="round3">
+            <figure class="medal">
+              <img src="images/popsons-winner.png" alt="">
+            </figure>
+            <div class="copy">
+              <p class="category">Cheeseburgers</p>
+              <h2 class="competitors">Popsons
+                <span>vs</span> In-N-Out</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: {
+        families: ['Open+Sans:400,600']
+      }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  <script src="main.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+
+</html>

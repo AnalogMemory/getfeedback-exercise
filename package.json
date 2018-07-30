@@ -1,0 +1,33 @@
+{
+  "name": "getfeedback-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch --config webpack.config.js --mode=development",
+    "build": "webpack --progress --config webpack.config.js --mode=production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "image-webpack-loader": "^4.3.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.1",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "standard": "*",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "instafeed.js": "^1.4.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "IE >= 10",
+    "last 3 versions"
+  ]
+}

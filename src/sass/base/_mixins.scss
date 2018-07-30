@@ -1,0 +1,5 @@
+@mixin media($media) {
+  @media screen and (#{$media}) {
+    @content;
+  }
+}

@@ -1,0 +1,11 @@
+# Project Dependencies
+node_modules
+.vscode
+
+# Buile Directory
+dist/**
+!dist/index.html
+
+# Misc
+.DS_Store
+*.log

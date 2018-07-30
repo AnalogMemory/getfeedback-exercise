@@ -1,0 +1,16 @@
+.inner {
+  width: 100%;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 3rem 1rem;
+  @include media($medium-screen-up) {
+    padding: 4.5rem 0;
+  }
+  .section__header {
+    text-align: center;
+    padding-bottom: 4.5rem;
+  }
+}

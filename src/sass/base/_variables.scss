@@ -1,0 +1,50 @@
+// Typography
+$base-font-family: 'Open Sans',
+sans-serif;
+// Font Sizes
+$base-font-size: 1em;
+// Line height
+$base-line-height: 1.618;
+$heading-line-height: 1.1;
+// Other Sizes
+$base-spacing: $base-line-height * $base-font-size;
+$small-spacing: $base-spacing / 2;
+// Colors
+$white: #ffffff;
+$black: #000000;
+$dark-gray: #222222;
+$medium-gray: #6f625a;
+$light-gray: #c6c6c6;
+$red: #e2443e;
+$blue: #2e71fc;
+// Font Colors
+$base-font-color: $dark-gray;
+$header-font-color: $dark-gray;
+$action-color: $blue;
+$action-hover-color: $medium-gray;
+// Font-smoothing
+$font-smoothing: antialiased;
+// Border
+$base-border-radius: 3px;
+$base-border-color: $dark-gray;
+$base-border: 1px solid $base-border-color;
+// Background Colors
+$base-background-color: $white;
+// Forms
+$form-box-shadow: inset 2px 3px rgba($black, 0.06);
+$form-box-shadow-focus: $form-box-shadow,
+0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+// Animations
+$base-duration: 300ms;
+$base-timing: ease-in-out;
+// Retina Media Query
+$retina: "only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)";
+// Media Query Breakpoints
+$small-screen: 768px;
+$medium-screen: 769px;
+$large-screen: 1000px;
+$xlarge-screen: 1400px;
+$small-screen: "max-width: #{$small-screen}";
+$medium-screen-up: "min-width: #{$medium-screen}";
+$large-screen-up: "min-width: #{$large-screen}";
+$xlarge-screen-up: "min-width: #{$xlarge-screen}";
